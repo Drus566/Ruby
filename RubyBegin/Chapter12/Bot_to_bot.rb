@@ -8,5 +8,5 @@ r = fred.greeting
     puts "#{fred.name} said: " + r
     r = chris.response_to(r)
     puts "#{chris.name} said: " + r
-    r = fred.response_to(r)
+    r = fred.response_to(r) 
 end
