@@ -1,7 +1,6 @@
-console.log('ggwp');
-document.addEventListener("click", function(){
-    var openProjectButton = document.getElementById('new-project-button')
-    var projectPopover = document.getElementById('new-project-popover')
+document.addEventListener('turbolinks:load', function(){
+    const openProjectButton = document.getElementById('new-project-button')
+    const projectPopover = document.getElementById('new-project-popover')
 
     if (openProjectButton && projectPopover){
         

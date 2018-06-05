@@ -1,0 +1,19 @@
+<h1>HELLO</h1>
+<p>
+    <%= link_to "GOODBYE", say_goodbye_path %>
+</p>
+
+<p>
+    1+2 = <%= 1 + 2 %> <br>
+    cowboy = <%= "cow" + "boy" %> <br>
+    Time in one hour = <%= 1.hour.from_now.localtime %>
+</p>
+
+<h1>List of files</h1>
+<p>
+    <% @files.each_with_index do |file, key| %>
+       <%= key + 1 %>
+       <%= file %>
+       <br>
+    <% end %>
+</p>
